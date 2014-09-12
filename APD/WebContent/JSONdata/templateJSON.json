@@ -1,0 +1,80 @@
+{
+    "d": {
+        "results": [
+            {
+                "defaultTemplate": {
+                    "TopBegin": "33%",
+                    "TopMiddle": "50%",
+                    "TopEnd": "99%",
+                    "BottomBegin": "33%",
+                    "BottomMiddle": "50%",
+                    "BottomEnd": "99%"
+                },
+                "oneTable": {
+                    "TopBegin": "99%",
+                    "TopMiddle": "0%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "0%",
+                    "BottomMiddle": "0%",
+                    "BottomEnd": "0%"
+                },
+                "oneChart": {
+                    "TopBegin": "100%",
+                    "TopMiddle": "0%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "0%",
+                    "BottomMiddle": "0%",
+                    "BottomEnd": "0%"
+                },
+                "oneTableOneChart": {
+                    "TopBegin": "99%",
+                    "TopMiddle": "0%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "99%",
+                    "BottomMiddle": "0%",
+                    "BottomEnd": "0%"
+                },
+                "twoTableOneChart": {
+                    "TopBegin": "50%",
+                    "TopMiddle": "99%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "99%",
+                    "BottomMiddle": "0%",
+                    "BottomEnd": "0%"
+                },
+                "twoChartOneTable": {
+                    "TopBegin": "50%",
+                    "TopMiddle": "99%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "99%",
+                    "BottomMiddle": "0%",
+                    "BottomEnd": "0%"
+                },
+                "twoTableTwoChart": {
+                    "TopBegin": "50%",
+                    "TopMiddle": "99%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "50%",
+                    "BottomMiddle": "99%",
+                    "BottomEnd": "0%"
+                },
+                "fourTable": {
+                    "TopBegin": "50%",
+                    "TopMiddle": "99%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "50%",
+                    "BottomMiddle": "99%",
+                    "BottomEnd": "0%"
+                },
+                "fourChart": {
+                    "TopBegin": "50%",
+                    "TopMiddle": "99%",
+                    "TopEnd": "0%",
+                    "BottomBegin": "50%",
+                    "BottomMiddle": "99%",
+                    "BottomEnd": "0%"
+                }
+            }
+        ]
+    }
+}

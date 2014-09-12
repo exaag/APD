@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core" id="cpFragment_Id">
+ 
+  <ResponsivePopover
+       title="Dimensions Filters"
+    placement="Auto">
+    <beginButton>
+      <Button text="clear" press="filterCopyPasteClear" />
+    </beginButton>
+    <content>
+       <ScrollContainer height="100px" width="200px"
+              horizontal="false" vertical="true">
+            <TextArea id="mrpctl_cp_id"  width="200px" height="100px" liveChange="filterCopyPaste">  </TextArea>
+       </ScrollContainer>
+    </content>
+  </ResponsivePopover>
+</core:FragmentDefinition>

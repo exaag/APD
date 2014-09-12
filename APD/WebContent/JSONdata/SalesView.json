@@ -1,0 +1,226 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20130201',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20130201",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "12",
+                "MATERIAL": "00309180212",
+                "PLANT": "1520"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20130211',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20130211",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20130215',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20130215",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20130226',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20130226",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20130228',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20130228",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140103',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140103",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140107',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140107",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140108',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140108",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140109',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140109",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "15",
+                "MATERIAL": "00309180212",
+                "PLANT": "1520"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140110',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140110",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "20",
+                "MATERIAL": "00309180212",
+                "PLANT": "1520"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140114',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140114",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140121',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140121",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140123',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140123",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140130',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140130",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140131',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140131",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140207',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140207",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140210',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140210",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140221',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140221",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140222',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140222",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            },
+            {
+                "__metadata": {
+                    "uri": "http://172.25.10.102:8000/sap/opu/odata/sap/ZDISTRIBUTION_VIEW_SRV/SalesLinkedViewSet(SDATE='20140228',SORGANIZATION='1000',SDISTRIBUTION_CHANNEL='10',MATERIAL='00309180212',PLANT='1519')",
+                    "type": "ZDISTRIBUTION_VIEW_SRV.SalesLinkedView"
+                },
+                "SDATE": "20140228",
+                "SORGANIZATION": "1000",
+                "SDISTRIBUTION_CHANNEL": "10",
+                "MATERIAL": "00309180212",
+                "PLANT": "1519"
+            }
+        ]
+    }
+}

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core:View xmlns:core="sap.ui.core" xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:table="sap.ui.table"
+	controllerName="asianpaint.distribution.distribution">
+	<Page title="Distribution View " showNavButton="true"
+		navButtonPress="toggleFilterPanel">
+		<content>
+			<layout:Splitter height="100%">
+				<ScrollContainer id="idFilterSC" height="600px"
+					width="100%" horizontal="true" vertical="true">
+					<Toolbar>
+						<core:Icon src="sap-icon://filter" />
+						<Text text="Filters" />
+						<ToolbarSpacer />
+					</Toolbar>
+					<IconTabBar class="iconTabBarPaddingTop" id="idIconTabBarNoIcons"
+						expanded="{device&gt;/isNoPhone}">
+						<items>
+							<IconTabFilter text="Dimensions ">
+								<Toolbar>
+									<CheckBox width="85px" text="MRPTCL" id="mrpctl_ckId"
+										select="getCoverageData" selected="false" />
+									<ToolbarSpacer />
+									<MultiComboBox id="mrpctl_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/mrpctl',sorter: {path:'MRPCRTL_CODE'}                                   }">
+										<core:Item key="{MRPCRTL_CODE}"
+											text="{ parts : [
+                             {path : 'MRPCRTL_CODE'},
+                             {path : 'MRPCRTL_NAME'}
+                             ],
+                                           formatter: 'formatter'}" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="mrpctl_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<ToolbarSpacer />
+								<Toolbar>
+									<CheckBox width="85px" text="FM2" id="fm2_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="fm2_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/fm2',sorter: {path:'FM2_CODE'}                                            }">
+										<core:Item key="{FM2_CODE}"
+											text="{    parts : [
+                             {path : 'FM2_CODE'},
+                             {path : 'FM2_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="ALLOCIND" id="allocind_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="allocind_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/allocond',sorter: {path:'ALLOCIND_CODE'}                                   }">
+										<core:Item key="{ALLOCIND_CODE}"
+											text="{    parts : [
+                             {path : 'ALLOCIND_CODE'},
+                             {path : 'ALLOCIND_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="allocind_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="THINNERLIN" id="thinnerlin_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="thinnerlin_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/thinnerlin',sorter: {path:'THINNERLIN_CODE'}                                   }">
+										<core:Item key="{THINNERLIN_CODE}"
+											text="{    parts : [
+                             {path : 'THINNERLIN_CODE'},
+                             {path : 'THINNERLIN_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="SHADE" id="shade_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="shade_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/shade',sorter: {path:'SHADE_CODE'}                                   }">
+										<core:Item key="{SHADE_CODE}"
+											text="{    parts : [
+                             {path : 'SHADE_CODE'},
+                             {path : 'SHADE_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="shade_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="PACK" id="pack_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="pack_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/pack',sorter: {path:'PACK_CODE'}                                   }">
+										<core:Item key="{PACK_CODE}"
+											text="{    parts : [
+                             {path : 'PACK_CODE'},
+                             {path : 'PACK_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="pack_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="SHADE NAME" id="shadename_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="shadename_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/shadeName',sorter: {path:'SHADE_CODE'}                                   }">
+										<core:Item key="{SHADE_CODE}"
+											text="{    parts : [
+                             {path : 'SHADE_CODE'},
+                             {path : 'SHADE_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="DTSIND" id="dtsint_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="dtsint_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/dtsint',sorter: {path:'DSTINT_CODE'}                                   }">
+										<core:Item key="{DSTINT_CODE}"
+											text="{    parts : [
+                             {path : 'DSTINT_CODE'},
+                             {path : 'DSTINT_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="dtsint_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="PACKTYPE" id="packType_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="packType_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/packType',sorter: {path:'PACKTYPE_CODE'}                                   }">
+										<core:Item key="{PACKTYPE_CODE}"
+											text="{    parts : [
+                             {path : 'PACKTYPE_CODE'},
+                             {path : 'PACKTYPE_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="packType_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="PROD" id="prod_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="prod_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/product',sorter: {path:'PROD_CODE'}                                   }">
+										<core:Item key="{PROD_CODE}"
+											text="{    parts : [
+                             {path : 'PROD_CODE'},
+                             {path : 'PROD_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="prod_gpId_filter"  press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="LINK" id="link_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="link_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/link',sorter: {path:'LINK_CODE'}                                   }">
+										<core:Item key="{LINK_CODE}"
+											text="{    parts : [
+                             {path : 'LINK_CODE'},
+                             {path : 'LINK_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="link_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="REGN" id="regn_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="regn_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/region',sorter: {path:'REGN_CODE'}                                   }">
+										<core:Item key="{REGN_CODE}"
+											text="{    parts : [
+                             {path : 'REGN_CODE'},
+                             {path : 'REGN_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="regn_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="DEPOT" id="depot_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="depot_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/depot',sorter: {path:'PLANT_CODE'}                                   }">
+										<core:Item key="{PLANT_CODE}"
+											text="{    parts : [
+                             {path : 'PLANT_CODE'},
+                             {path : 'PLANT_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="depot_gpId_filter"  press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="DIV" id="div_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="div_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/division',sorter: {path:'DIV_CODE'}                                   }">
+										<core:Item key="{DIV_CODE}"
+											text="{    parts : [
+                             {path : 'DIV_CODE'},
+                             {path : 'DIV_NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="div_gpId_filter"  press="openFilterPopover" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="CODE" id="code_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<MultiComboBox id="code_gpId" width="130px"
+										selectionFinish="getCoverageData"
+										items="{path: '/code',sorter: {path:'CODE'}                                   }">
+										<core:Item key="{CODE}"
+											text="{    parts : [
+                             {path : 'CODE'},
+                             {path : 'NAME'}
+                             ],
+                                           formatter: 'formatter'
+                             
+                             }" />
+									</MultiComboBox>
+									<ToolbarSpacer />
+									<core:Icon src="sap-icon://filter" id="code_gpId_filter" press="openFilterPopover" />
+								</Toolbar>
+							</IconTabFilter>
+							<IconTabFilter text="Key Figures">
+								<Toolbar>
+									<CheckBox width="85px" text="SOITR" id="SOITR_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="SOITR_ID" change="getCoverageData" type="Text" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="SOIBPR" id="SOIBPR_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_SOIBPR_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="SOIBPR_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="LOWSTK" id="LOWSTK_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_LOWSTK_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="LOWSTK_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="RDCSTK" id="RDCSTK_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_RDCSTK_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="RDCSTK_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="ACH" id="ACH_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_ACH_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="ACH_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="VSL" id="VSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_VSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="VSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="ITRVSL" id="ITRVSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_ITRVSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="ITRVSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="PUREVSL" id="PUREVSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_PUREVSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="PUREVSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="OVSL" id="OVSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_OVSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="OVSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="RSL" id="RSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_RSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="RSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="RSLIT" id="RSLIT_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_RSLIT_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="RSLIT_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="RSLSOIB" id="RSLSOIB_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_RSLSOIB_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="RSLSOIB_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="DOFR" id="DOFR_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_DOFR_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="DOFR_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="TLRSL" id="TLRSL_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_TLRSL_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="TLRSL_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="SST" id="SST_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_SST_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="SST_ID" change="getCoverageData" />
+								</Toolbar>
+								<Toolbar>
+									<CheckBox width="85px" text="DST" id="DST_ckId"
+										selected="false" select="getCoverageData" />
+									<ToolbarSpacer />
+									<Select id="filterSelected_DST_ID_Id" change="getCoverageData"
+										items="{path: '/filters',sorter: {path:'Name'}}">
+										<core:Item key="{filterID}" text="{filterName}" />
+									</Select>
+									<ToolbarSpacer />
+									<Input id="DST_ID" change="getCoverageData" />
+								</Toolbar>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+					<layoutData>
+						<layout:SplitterLayoutData size="25%" />
+					</layoutData>
+				</ScrollContainer>
+				<table:Table id="distributionTable" table:selectionMode="None "
+					table:visibleRowCount="30" />
+			</layout:Splitter>
+		</content>
+	</Page>
+</core:View>

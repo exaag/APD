@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+  <SelectDialog
+	title="Select Report to be displayed"
+	noDataText=""
+	multiSelect="false"
+	confirm="handleClose"
+	search="handleReportSearch"
+	close="handleClose"
+	cancel=""
+	items="{
+		path: '/shadeName'
+	}">
+	<items>
+		<StandardListItem
+		title="{SHADE_CODE}"
+		description="{SHADE_CODE}"/>
+	</items>
+  </SelectDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,35 @@
+{"d": {
+    "results": [
+                {
+                    "__metadata": {
+                        "uri": "http://54.195.242.113:8000/tsms/app/odata/test.xsodata/CUSTOMER(1)",
+                        "type": "services.test.CUSTOMERType"
+                    },
+                    "CUST_ID": 1,
+                    "CUST_NAME": "Messi",
+                    "DOB": "/Date(1415664000000)/",
+                    "SALARY": "1000.1"
+                },
+                {
+                    "__metadata": {
+                        "uri": "http://54.195.242.113:8000/tsms/app/odata/test.xsodata/CUSTOMER(2)",
+                        "type": "services.test.CUSTOMERType"
+                    },
+                    "CUST_ID": 2,
+                    "CUST_NAME": "Klose",
+                    "DOB": "/Date(1388534400000)/",
+                    "SALARY": "2000.1"
+                },
+                {
+                    "__metadata": {
+                        "uri": "http://54.195.242.113:8000/tsms/app/odata/test.xsodata/CUSTOMER(3)",
+                        "type": "services.test.CUSTOMERType"
+                    },
+                    "CUST_ID": 3,
+                    "CUST_NAME": "Ronaldo",
+                    "DOB": "/Date(1391299200000)/",
+                    "SALARY": "3000.1"
+                }
+            ]
+        }
+}

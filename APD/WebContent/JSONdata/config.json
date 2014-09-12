@@ -1,0 +1,83 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "http://54.195.242.113:8000/playground/services/XO_config_report_asian_paints.xsodata/REPORT('2548597965431')",
+                    "type": "playground.services.REPORTType"
+                },
+                "ID": "2548597965431",
+                "REPORT_ID": "R1",
+                "REPORT_TYPE": "Table",
+                "DESCRIPTION": "Report for Sales",
+                "USED_IN_VIEW": "Distribution",
+                "CONTAINER": "SALE",
+                "TEMPLATE": "TC",
+                "ODATA_URL": "http://54.195.242.113:8000/playground/services/XO_kishore_asian_paints.xsodata/ASIAN/",
+                "FIELD_NAME": "STK",
+                "LABEL": "Div 1",
+                "SEQUENCE": 1,
+                "VISIBLE": "X"
+            },
+            
+            {
+                "__metadata": {
+                    "uri": "http://54.195.242.113:8000/playground/services/XO_config_report_asian_paints.xsodata/REPORT('2548597965431')",
+                    "type": "playground.services.REPORTType"
+                },
+                "ID": "2548597965432",
+                "REPORT_ID": "Sales Trend View",
+                "REPORT_TYPE": "Chart",
+                "DESCRIPTION": "Report for Sales",
+                "USED_IN_VIEW": "Distribution",
+                "CONTAINER": "",
+                "TEMPLATE": "oneChart",
+                "ODATA_URL": "http://54.195.242.113:8000/playground/services/XO_kishore_asian_paints.xsodata/ASIAN/",
+                "FIELD_NAME": "SALE",
+                "LABEL": "Sales Trend",
+                "SEQUENCE": 1,
+                "VISIBLE": "X"
+            },
+            
+            {
+                "__metadata": {
+                    "uri": "http://54.195.242.113:8000/playground/services/XO_config_report_asian_paints.xsodata/REPORT('2548597965431')",
+                    "type": "playground.services.REPORTType"
+                },
+                "ID": "2548597965433",
+                "REPORT_ID": "MD04 View",
+                "REPORT_TYPE": "Table",
+                "DESCRIPTION": "Report for STK",
+                "USED_IN_VIEW": "Distribution",
+                "CONTAINER": "",
+                "TEMPLATE": "multipleTable",
+                "ODATA_URL": "http://54.195.242.113:8000/playground/services/XO_kishore_asian_paints.xsodata/ASIAN/",
+                "FIELD_NAME": "STK",
+                "LABEL": "Table 1",
+                "SEQUENCE": 1,
+                "VISIBLE": "X"
+            },
+            
+            {
+                "__metadata": {
+                    "uri": "http://54.195.242.113:8000/playground/services/XO_config_report_asian_paints.xsodata/REPORT('2548597965431')",
+                    "type": "playground.services.REPORTType"
+                },
+                "ID": "2548597965433",
+                "REPORT_ID": "MD04 View",
+                "REPORT_TYPE": "Table",
+                "DESCRIPTION": "Report for STK",
+                "USED_IN_VIEW": "Distribution",
+                "CONTAINER": "",
+                "TEMPLATE": "multipleTable",
+                "ODATA_URL": "http://54.195.242.113:8000/playground/services/XO_kishore_asian_paints.xsodata/ASIAN/",
+                "FIELD_NAME": "STK",
+                "LABEL": "Table 2",
+                "SEQUENCE": 2,
+                "VISIBLE": "X"
+            }
+            
+            
+        ]
+    }
+}

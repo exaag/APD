@@ -1,0 +1,96 @@
+{
+    "d": {
+        "results": [
+            {
+                "id": "mrptcl",
+                "text": "MRPTCL",
+                "filterCode": "MRPTCL_CODE",
+                "filterName": "MRPTCL_NAME"
+            },
+            {
+                "id": "fm2",
+                "text": "FM2",
+                "filterCode": "FM2_CODE",
+                "filterName": "FM2_NAME"
+            },
+            {
+                "id": "allocind",
+                "text": "ALLOCIND",
+                "filterCode": "ALLOCIND_CODE",
+                "filterName": "ALLOCIND_NAME"
+            },
+            {
+                "id": "thinnerlin",
+                "text": "THINNERLIN",
+                "filterCode": "THINNERLIN_CODE",
+                "filterName": "THINNERLIN_NAME"
+            },
+            {
+                "id": "shade",
+                "text": "SHADE",
+                "filterCode": "SHADE_CODE",
+                "filterName": "SHADE_NAME"
+            },
+            {
+                "id": "pack",
+                "text": "PACK",
+                "filterCode": "PACK_CODE",
+                "filterName": "PACK_NAME"
+            },
+            {
+                "id": "shadeName",
+                "text": "SHADE NAME",
+                "filterCode": "SHADE_CODE",
+                "filterName": "SHADE_NAME"
+            },
+            {
+                "id": "dtsind",
+                "text": "DTSIND",
+                "filterCode": "DTSIND_CODE",
+                "filterName": "DTSIND_NAME"
+            },
+            {
+                "id": "packtype",
+                "text": "PACKTYPE",
+                "filterCode": "PACKTYPE_CODE",
+                "filterName": "PACKTYPE_NAME"
+            },
+            {
+                "id": "prod",
+                "text": "PROD",
+                "filterCode": "PROD_CODE",
+                "filterName": "PROD_NAME"
+            },
+            {
+                "id": "link",
+                "text": "LINK",
+                "filterCode": "LINK_CODE",
+                "filterName": "LINK_NAME"
+            },
+            {
+                "id": "regn",
+                "text": "REGN",
+                "filterCode": "REGN_CODE",
+                "filterName": "REGN_NAME"
+            },
+            {
+                "id": "depot",
+                "text": "DEPOT",
+                "filterCode": "DEPOT_CODE",
+                "filterName": "DEPOT_NAME"
+            },
+            {
+                "id": "div",
+                "text": "DIV",
+                "filterCode": "DIV_CODE",
+                "filterName": "DIV_NAME"
+            },
+            {
+                "id": "code",
+                "text": "CODE",
+                "filterCode": "CODE",
+                "filterName": "NAME"
+            }
+        ]
+    }
+}
