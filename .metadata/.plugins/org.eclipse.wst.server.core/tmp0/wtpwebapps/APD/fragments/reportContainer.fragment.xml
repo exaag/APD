@@ -1,0 +1,126 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:table="sap.ui.table"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<layout:Splitter orientation="Vertical" width="100%">
+		<layout:Splitter id="idSCTop" orientation="Horizontal">
+			<layout:contentAreas>
+				<VBox id="idVBoxTopBegin" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableTopBegin" selectionMode="None"
+						visible="false">
+					</table:Table>
+				</VBox>
+				<VBox id="idVBoxTopMiddle" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableTopMiddle" selectionMode="None"
+						visible="true">
+					</table:Table>
+				</VBox>
+				<VBox id="idVBoxTopEnd" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableTopEnd" selectionMode="None"
+						visible="true">
+					</table:Table>
+				</VBox>
+			</layout:contentAreas>
+		</layout:Splitter>
+		<layout:Splitter id="idSCBottom" orientation="Horizontal">
+			<layout:contentAreas>
+				<VBox id="idVBoxBottomBegin" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableBottomBegin" selectionMode="None"
+						visible="false">
+					</table:Table>
+				</VBox>
+				<VBox id="idVBoxBottomMiddle" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableBottomMiddle" selectionMode="None">
+					</table:Table>
+				</VBox>
+				<VBox id="idVBoxBottomEnd" visible="true" height="" width=""
+					displayInline="false" direction="Column" fitContainer="false"
+					renderType="Div" justifyContent="End" alignItems="Stretch">
+					<HBox visible="true" height="" width="" displayInline="false"
+						direction="Row" fitContainer="false" renderType="Div"
+						justifyContent="End" alignItems="Stretch">
+						<items>
+							<Icon xmlns="sap.ui.core" src="sap-icon://download" size="14px"
+								color="#555555"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://action-settings"
+								size="14px" color="#555555" press="openSelectReportDialog"></Icon>
+							<Icon xmlns="sap.ui.core" src="sap-icon://resize" size="12px"
+								color="#555555" press="resizeContainer"></Icon>
+						</items>
+					</HBox>
+					<table:Table id="idTableBottomEnd" selectionMode="None">
+					</table:Table>
+				</VBox>
+			</layout:contentAreas>
+		</layout:Splitter>
+	</layout:Splitter>
+</core:FragmentDefinition>

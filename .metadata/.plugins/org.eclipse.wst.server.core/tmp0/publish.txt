@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Sep 12 15:07:32 IST 2014
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\lenovo\\Downloads\\eclipse-jee-kepler-SR2-win32-x86_64\\eclipse\\plugins\\com.sap.ui5.utils_1.22.4.jar=WEB-INF/lib/com.sap.ui5.utils_1.22.4.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\lenovo\\Downloads\\eclipse-jee-kepler-SR2-win32-x86_64\\eclipse\\plugins\\com.sap.ui5.resource_1.22.4.jar=WEB-INF/lib/com.sap.ui5.resource_1.22.4.jar

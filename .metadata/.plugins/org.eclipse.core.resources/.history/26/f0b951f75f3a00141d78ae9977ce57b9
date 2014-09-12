@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+.customPageBackground {
+	background-color: rgba(54, 62, 67, 0.96);
+}
+
+.verticalButton
+{
+	
+}
+.myBackgroundStyle {
+	background: url(../asset/asianPaintBg.jpeg) no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+.sapMLabel {
+color: #666666;
+font-size: 12px;
+font-family: Arial,Helvetica,sans-serif;
+font-weight: normal;
+}
+.pannelList{
+	height: 20px;
+}
+.equalColumns .columns {
+  min-height: 200px;
+}
+.sapMImg {
+	margin-top: 55%;
+	margin-left: -30%;
+	text-align: center;
+	width: auto;
+	height: 200px;
+	border: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.sapMTC .sapMTile,.sapMTC .sapMCustomTile {
+	z-index: 295;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.80;
+}
+
+.sapMTC {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	overflow: hidden;
+	touch-action: pan-y;
+	-ms-touch-action: pan-y;
+}
+.sapUiSizeCompact .sapMSLIIconThumb, .sapUiSizeCompact .sapMSLIDescNoIcon, .sapUiSizeCompact .sapMSLIDescIcon {
+	height: 2rem;
+}

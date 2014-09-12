@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core">
+  <ResponsivePopover
+  	title="Filter"
+    class="sapUiPopupWithPadding"
+    placement="Bottom">
+    <beginButton>
+      <Button text="Close" tap="handleCloseButton" />
+    </beginButton>
+    <content>
+	<ScrollContainer height="200px" width="200px"
+		horizontal="false" vertical="true">
+		<List id="idList" items="{/mrpctl}" selectionChange="onSelectionChange"
+			mode="MultiSelect" includeItemInSelection="true">
+			<items>
+				<StandardListItem title="{MRPCRTL_CODE}" />
+			</items>
+		</List>
+	</ScrollContainer>
+    </content>
+  </ResponsivePopover>
+</core:FragmentDefinition>

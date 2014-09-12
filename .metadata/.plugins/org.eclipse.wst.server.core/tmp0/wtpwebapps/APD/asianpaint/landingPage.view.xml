@@ -1,0 +1,29 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="asianpaint.landingPage" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+    showHeader="false"
+    enableScrolling="false" Class="customPageBackground" >
+		<content>
+		  <VBox
+          alignItems="End"
+          justifyContent="Start"
+          class="myBackgroundStyle">
+          <items >
+          <Image src="asset/Asian Paints logo.png" Class="asianLogo"/>
+          </items>
+         </VBox>
+		</content>
+		<TileContainer
+          id="container"
+          tiles="{
+          path: '/TileCollection'
+          }">
+          <StandardTile
+          press="handleTile"
+          icon="sap-icon://{icon}"
+          title="{title}"
+          info="{info}"
+          infoState="{infoState}" />
+        </TileContainer>
+	</Page>
+</core:View>

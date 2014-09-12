@@ -1,0 +1,691 @@
+{
+    "Key": {
+        "PropertyRef": [
+            {
+                "-Name": "ALLOCIND"
+            },
+            {
+                "-Name": "CODE"
+            },
+            {
+                "-Name": "DEPOT"
+            },
+            {
+                "-Name": "DIV"
+            },
+            {
+                "-Name": "DTSIND"
+            },
+            {
+                "-Name": "FM2"
+            },
+            {
+                "-Name": "LINK"
+            },
+            {
+                "-Name": "PACK"
+            },
+            {
+                "-Name": "PACKTYPE"
+            },
+            {
+                "-Name": "PROD"
+            },
+            {
+                "-Name": "REGN"
+            },
+            {
+                "-Name": "SHADE"
+            },
+            {
+                "-Name": "SHADENAME"
+            },
+            {
+                "-Name": "THINNERLIN"
+            }
+        ],
+        "Property": [
+            {
+                "-Name": "ALLOCIND",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "CODE",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DEPOT",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DIV",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DTSIND",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "FM2",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "LINK",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PACK",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PACKTYPE",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PROD",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "REGN",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SHADE",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SHADENAME",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "THINNERLIN",
+                "-Type": "Edm.String",
+                "-Nullable": "false",
+                "-MaxLength": "50",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "ACH",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "CVSL",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DAYFO",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DAYUNALOC",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DDFN1",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DDFN2",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DOFR",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DST_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "DVSL",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "ESTM",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "EXCESS",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "IBAY_P",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "IBAY_R",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "ITR",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "ITRUCV",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "ITRVSL",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "LOWSTK",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "MTDFO",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "MTDRSL_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "MTDUNALOC",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "NEXTMTH",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "OVSL_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PRESOFR_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PREVMTDFO",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PREVUNALOC",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "PUREVSL",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "RDCSTK",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "RSL",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "RSL_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "RSLIT_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "RSLSOIB_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SALE",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SKUIND",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SMCONV",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SOFR",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SOIBPR",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SOITR",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SPDCOUNT",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SPDIND",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SS",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SSFN2",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "SST_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "STK",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "TLRSL_C",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "TLSO",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "UCV",
+                "-Type": "Edm.Int32",
+                "-Nullable": "false",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "UCV1",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "UCVNM",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            },
+            {
+                "-Name": "VSL",
+                "-Type": "Edm.Decimal",
+                "-Nullable": "false",
+                "-Precision": "13",
+                "-Scale": "3",
+                "-sap: creatable": "false",
+                "-sap: updatable": "false",
+                "-sap: sortable": "false",
+                "-sap: filterable": "false"
+            }
+        ]
+    }
+}
