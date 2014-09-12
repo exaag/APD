@@ -11,7 +11,7 @@ sap.ui.controller("asianpaint.landingPage", {
 	onInit : function() {
 		
 	},
-	//tetst git
+	//tetst git chnage commit
 	handleTile:function(evt)
 	{
 		if(evt.getSource().getId()=="__tile0-idlandingPage--container-0")
